@@ -44,7 +44,7 @@ CPM_InitModule(${CPM_MODULE_NAME})
 #------------------------------------------------------------------------------
 
 set(SOURCES "${CPM_MODULE_NAME}/src/ff.c"
-    "${CPM_MODULE_NAME}/src/option/unicode.c")
+    "${CPM_MODULE_NAME}/src/ffunicode.c")
 
 include_directories("${CPM_MODULE_NAME}")
 add_library(${CPM_LIB_TARGET_NAME} ${SOURCES})
